@@ -1,8 +1,8 @@
-#include <include/runner/ProccesRunner.h>
+#include <runner/ProcesRunner.h>
 
 #include <windows.h>
 
-ProcessResult run_command
+ProcessResult ProcessRunner::run_command
 (const std::wstring& command)
 {
     STARTUPINFOW start_info{};
