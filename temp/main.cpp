@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::wstring command = L"echo in.txt";
+    std::wstring command = L"echo Hello world! > in.txt";
     
     auto result = run_command(command);
 
