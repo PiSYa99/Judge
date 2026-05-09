@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Admin/Desktop/Working/Judge/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/judge.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\judge.dir\\src\\main.cpp.obj -c C:\\Users\\Admin\\Desktop\\Working\\Judge\\src\\main.cpp",
+  "file": "C:/Users/Admin/Desktop/Working/Judge/src/main.cpp",
+  "output": "CMakeFiles/judge.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Admin/Desktop/Working/Judge/out/build/GCC 14.2.0 x86_64-w64-mingw32 (ucrt64)",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/judge.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\judge.dir\\src\\ProcessRunner.cpp.obj -c C:\\Users\\Admin\\Desktop\\Working\\Judge\\src\\ProcessRunner.cpp",
+  "file": "C:/Users/Admin/Desktop/Working/Judge/src/ProcessRunner.cpp",
+  "output": "CMakeFiles/judge.dir/src/ProcessRunner.cpp.obj"
+}
+]
