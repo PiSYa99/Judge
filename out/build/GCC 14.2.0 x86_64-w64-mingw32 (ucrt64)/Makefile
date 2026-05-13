@@ -128,6 +128,30 @@ judge/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\judge.dir\build.make CMakeFiles/judge.dir/build
 .PHONY : judge/fast
 
+src/Compiler.obj: src/Compiler.cpp.obj
+.PHONY : src/Compiler.obj
+
+# target to build an object file
+src/Compiler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\judge.dir\build.make CMakeFiles/judge.dir/src/Compiler.cpp.obj
+.PHONY : src/Compiler.cpp.obj
+
+src/Compiler.i: src/Compiler.cpp.i
+.PHONY : src/Compiler.i
+
+# target to preprocess a source file
+src/Compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\judge.dir\build.make CMakeFiles/judge.dir/src/Compiler.cpp.i
+.PHONY : src/Compiler.cpp.i
+
+src/Compiler.s: src/Compiler.cpp.s
+.PHONY : src/Compiler.s
+
+# target to generate assembly for a file
+src/Compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\judge.dir\build.make CMakeFiles/judge.dir/src/Compiler.cpp.s
+.PHONY : src/Compiler.cpp.s
+
 src/ProcessRunner.obj: src/ProcessRunner.cpp.obj
 .PHONY : src/ProcessRunner.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... judge
+	@echo ... src/Compiler.obj
+	@echo ... src/Compiler.i
+	@echo ... src/Compiler.s
 	@echo ... src/ProcessRunner.obj
 	@echo ... src/ProcessRunner.i
 	@echo ... src/ProcessRunner.s
