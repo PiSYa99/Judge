@@ -7,7 +7,7 @@
 int main()
 {
     std::wstring program = L"brute";
-    std::wstring command = L"cmd.exe start brute.exe";
+    std::wstring command = L"cmd.exe /C \"start brute.exe\"";
 
     Compiler compiler;
     ProcessRunner runner;
