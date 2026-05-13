@@ -12,7 +12,6 @@ int main()
     Compiler compiler;
     ProcessRunner runner;
 
-
     int exit_code = compiler.compile(program);
 
     if (exit_code == 0)

@@ -17,3 +17,4 @@ int Compiler::compile(std::wstring &program)
 
     return exit_code;
 }
+ 
