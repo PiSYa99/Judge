@@ -1,16 +1,30 @@
 #include <runner/ProcessRunner.h>
+#include <compiler/Compiler.h>
+
 
 #include <iostream>
 
 int main()
 {
-    std::wstring command = L"cmd.exe /C \"echo Hello world! > in.txt\"";
+    std::wstring program = L"brute";
+    std::wstring command = L"cmd.exe /C \"start brute.exe\"";
 
+    Compiler compiler;
     ProcessRunner runner;
-    
-    auto result = runner.run_command(command);
 
-    std::cout << result.exitCode;
+    int exit_code = compiler.compile(program);
+
+    if (exit_code == 0)
+    {
+        std::cout << "Success\n";
+        ProcessResult result = runner.run_command(command);
+        std::cout << result.exitCode;
+    }
+    else
+    {
+        std::cout << "Compilation error";
+    }
+
     std::cin.get();
 
     return 0;

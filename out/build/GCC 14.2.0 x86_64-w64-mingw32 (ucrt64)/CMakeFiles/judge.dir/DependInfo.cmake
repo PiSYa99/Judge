@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Admin/Desktop/Working/Judge/src/Compiler.cpp" "CMakeFiles/judge.dir/src/Compiler.cpp.obj" "gcc" "CMakeFiles/judge.dir/src/Compiler.cpp.obj.d"
   "C:/Users/Admin/Desktop/Working/Judge/src/ProcessRunner.cpp" "CMakeFiles/judge.dir/src/ProcessRunner.cpp.obj" "gcc" "CMakeFiles/judge.dir/src/ProcessRunner.cpp.obj.d"
   "C:/Users/Admin/Desktop/Working/Judge/src/main.cpp" "CMakeFiles/judge.dir/src/main.cpp.obj" "gcc" "CMakeFiles/judge.dir/src/main.cpp.obj.d"
   )
